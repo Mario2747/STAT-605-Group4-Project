@@ -35,4 +35,4 @@ This project leverages crime data from the NIBRS dataset to analyze patterns and
 
 ### 5. Shiny Link
 The Shiny app allows users to interactively . You can access the live app here:
-- [Shiny App Link]([https://andrewchanshiny.shinyapps.io/Trip_Crime_Prediction_Tool/])
+- [Shiny App Link](https://andrewchanshiny.shinyapps.io/Trip_Crime_Prediction_Tool/)
