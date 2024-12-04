@@ -1,5 +1,5 @@
 # STAT-605-Project：Predict Flight Delays and Cancellations During the Holiday Season
-Yuchen Xu, Mario Ma, Yiteng Tu, Yudi Wang， Zhengyong Chen.
+Yuchen Xu, Mario Ma, Yiteng Tu, Yudi Wang, Zhengyong Chen.
 
 ## Description
 The holiday
