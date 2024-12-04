@@ -30,6 +30,9 @@ This project leverages crime data from the NIBRS dataset to analyze patterns and
 - **match1.ipynb**:
   - Organizes raw airport and weather station data.
 
+### 4. EDA
+- This document describes the exploratory data analysis (EDA) performed on the crime dataset to understand patterns, trends, and distributions of incidents across various states in the U.S. The EDA involves data visualization and summarization techniques to extract meaningful insights and guide subsequent data preprocessing and modeling steps.
+
 ### 4. Shiny Link
 The Shiny app allows users to interactively . You can access the live app here:
-- [Shiny App Link](https://mario2747.shinyapps.io/flightpredict/)
+- [Shiny App Link]([https://andrewchanshiny.shinyapps.io/Trip_Crime_Prediction_Tool/])
