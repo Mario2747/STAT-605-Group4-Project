@@ -30,23 +30,23 @@ Final cleaned data can be found at [Crime Clean Data](https://www.dropbox.com/sc
 The reference of some columns in cleaned data can be found at [Reference Files](https://www.dropbox.com/scl/fi/4hditppd22t3p91w0l2b3/data_reference.zip?rlkey=gyiz3uh7b5hhzi2apxyezq8q8&st=l9gyk2xq&dl=0)
  
 ### 3. Model
-  - **match1.ipynb**:
+  - **match1.ipynb**:  
     - Organizes raw airport and weather station data.
-  - **model.R**:
+  - **model.R**:  
     - Rscript containing training and testing XGBoost model. The data used can be found at the end of the second part.
-  -  **model.sh**:
+  -  **model.sh**:  
     - The .sh file used to run model.R on linux system.
-  -  **model.sub**:
+  -  **model.sub**:  
     - The .sub file used to submit the job on CHTC.
-  -  **states_queue.txt**:
+  -  **states_queue.txt**:  
     - The list used in model.sub file to do the parallel jobs. It contains 50 states of America.
-  -  **WIxgb-model.bin**:
+  -  **WIxgb-model.bin**:  
     - An example final model(Wisconsin).
-  -  **WI-importance.csv**:
+  -  **WI-importance.csv**:  
     - The important factors of model(Wisconsin).
-  -  **WI-prediction.csv**:
+  -  **WI-prediction.csv**:  
     - The final predictions on test set of model(Wisconsin).
-  -  **WI-scores.csv**:
+  -  **WI-scores.csv**:  
     - The precision, recall and F1-score of model(Wisconsin).       
 
 ### 4. EDA
