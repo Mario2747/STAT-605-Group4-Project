@@ -25,7 +25,7 @@ This project leverages crime data from the NIBRS dataset to analyze patterns and
   - **process_data_fast1.sh**:
     - Shell script to execute the process_data_fast1.R script.
   - **states_queue.txt**:
-    - Text file containing a list of states to process.
+    - Text file containing a list of states to process.   
 Final cleaned data can be found at [Crime Clean Data](https://www.dropbox.com/scl/fi/6afvjxidwwymdnq5fdev9/clean_data.zip?rlkey=zpse953136c0olidoe3ixelc6&st=nfsg6zg3&dl=0).  
 The reference of some columns in cleaned data can be found at [Reference Files](https://www.dropbox.com/scl/fi/4hditppd22t3p91w0l2b3/data_reference.zip?rlkey=gyiz3uh7b5hhzi2apxyezq8q8&st=l9gyk2xq&dl=0)
  
