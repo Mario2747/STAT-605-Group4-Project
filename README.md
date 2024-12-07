@@ -4,7 +4,7 @@ Yuchen Xu, Mario Ma, Yiteng Tu, Yudi Wang, Zhengyong Chen.
 ## Description
 This repository contains the code and resources for the data cleaning and preprocessing tasks related to the STAT-605 Group 4 project. The focus is on extracting, cleaning, and integrating data from various sources while optimizing parallel processing.
 This project leverages crime data from the NIBRS dataset to analyze patterns and provide insights for enhancing public safety. The analysis focuses on understanding crime trends across different locations, times, and categories. The outcomes can help individuals, law enforcement, and policymakers make informed decisions to improve safety and allocate resources effectively.  
-[Data origin](https://cde.ucr.cjis.gov/LATEST/webapp/#/pages/downloads)
+[Origin Data](https://cde.ucr.cjis.gov/LATEST/webapp/#/pages/downloads)
 
 ## Repository Structure
 
