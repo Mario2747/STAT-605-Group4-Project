@@ -41,13 +41,13 @@ The reference of some columns in cleaned data can be found at [Reference Files](
   -  **states_queue.txt**:
     - The list used in model.sub file to do the parallel jobs. It contains 50 states of America.
   -  **WIxgb-model.bin**:
-    -  An example final model(Wisconsin).
+    - An example final model(Wisconsin).
   -  **WI-importance.csv**:
-    -  The important factors of model(Wisconsin).
+    - The important factors of model(Wisconsin).
   -  **WI-prediction.csv**:
-    -  The final predictions on test set of model(Wisconsin).
+    - The final predictions on test set of model(Wisconsin).
   -  **WI-scores.csv**:
-    -  The precision, recall and F1-score of model(Wisconsin).       
+    - The precision, recall and F1-score of model(Wisconsin).       
 
 ### 4. EDA
 - This document describes the exploratory data analysis (EDA) performed on the crime dataset to understand patterns, trends, and distributions of incidents across various states in the U.S. The EDA involves data visualization and summarization techniques to extract meaningful insights and guide subsequent data preprocessing and modeling steps.
