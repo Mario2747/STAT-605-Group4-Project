@@ -1,0 +1,27 @@
+# Before running this with "condor_submit myscript.sub", the
+# directories log, error, and output must exist.
+
+log    =    log/$(i).log
+error  =  error/$(i).err
+output = output/$(i).out
+
+# An Apptainer container_image below provides a software environment
+# on the execute computer(s). This one provides R and Rscript along
+
+container_image = R_xgboost_caret.sif
+
+executable = ./model.sh
+
+arguments = $(i) $(i)-2021_merge.csv $(i)-2022_merge.csv $(i)-2023_merge.csv
+
+should_transfer_files = YES
+when_to_transfer_output = ON_EXIT
+transfer_input_files = model.R, ./clean_data/$(i)-2021_merge.csv, ./clean_data/$(i)-2022_merge.csv, ./clean_data/$(i)-2023_merge.csv
+
+# requirements = (HasCHTCStaging == true)
+
+request_cpus = 1
+request_memory = 6GB
+request_disk = 4GB
+
+queue i from states_queue.txt
